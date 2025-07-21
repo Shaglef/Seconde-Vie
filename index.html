@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seconde Vie - Montres Vintage Restaurées</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #e2d6c4;
+      color: #3b2f2f;
+    }
+    header {
+      background-color: #3b2f2f;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x500');
+      background-size: cover;
+      background-position: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      background-blend-mode: multiply;
+      padding: 6rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .product img {
+      width: 100%;
+      display: block;
+    }
+    .product-info {
+      padding: 1rem;
+    }
+    .product-info h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .product-info p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer {
+      background-color: #3b2f2f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Seconde Vie</h2>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="accueil">
+    <h1>Montres Vintage Restaurées</h1>
+    <p>Offrez une seconde vie à des pièces horlogères uniques</p>
+  </section>
+
+  <section class="section" id="boutique">
+    <h2>Notre collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300" alt="Seiko 5 1979">
+        <div class="product-info">
+          <h3>Seiko 5 – 1979</h3>
+          <p>Automatique, 37 mm, restaurée. 119,00 €</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x300" alt="LIP Genève 1965">
+        <div class="product-info">
+          <h3>LIP Genève – 1965</h3>
+          <p>Mécanique, 34 mm, état impeccable. 149,00 €</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="apropos">
+    <h2>À propos</h2>
+    <p>Seconde Vie est un projet né de la passion pour l’horlogerie vintage et le désir de redonner vie à des montres oubliées. Chaque pièce est sélectionnée, nettoyée et restaurée avec soin avant d’être proposée à la vente.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute question, collaboration ou demande spéciale : <br />
+    <strong>Email :</strong> contact@secondevie-montres.fr <br />
+    <strong>Instagram :</strong> @secondevie.montres</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Seconde Vie - Tous droits réservés. | Mentions légales
+  </footer>
+</body>
+</html>
